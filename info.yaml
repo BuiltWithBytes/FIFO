@@ -33,12 +33,12 @@ documentation:
     - Bit 1 input
     - Bit 2 input
     - Bit 3 input
-    - !Clear
+    - not Clear
     - Write clock (Rising)
   outputs:
     - segment a         # a description of what the outputs do
-    - segment b !empty
-    - segment c !full
+    - segment b not empty
+    - segment c not full
     - segment d bit 0 output
     - segment e bit 1 output
     - segment f bit 2 output
